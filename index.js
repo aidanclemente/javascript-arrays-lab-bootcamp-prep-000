@@ -7,3 +7,7 @@ function Arrays () {
 function kittens () {
   var kittens = ["Milo", "Otis", "Garfield"];
 }
+
+function destructivelyAppendKitten(name) {
+  destructivelyAppendKitten.push("Ralph");
+}
