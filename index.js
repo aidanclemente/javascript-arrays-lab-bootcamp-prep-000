@@ -28,3 +28,8 @@ function appendKitten (name) {
   var appendKitten1 = [...kittens, "Broom"];
   return appendKitten1;
 }
+
+function prependKitten (name) {
+  var prependKitten1 = ["Arnold",...kittens];
+  return prependKitten1;
+}
